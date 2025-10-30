@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crepe Gru - O melhor crepe de Guarulhos com sabor que surpreende e textura que encanta. Peça agora nossa entrega express!">
+    <title>Crepe GRU - Sabor e Tradição em Guarulhos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+<!------------------HEADER PRINCIPAL COM NAVEGAÇÃO------------------>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="imagem/oficiallogo.png" alt="Logo Crepe Gru" class="logo-img">
+                    <span class="logo-text">Crepe Gru</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="sobre nos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+             <div class="cart-button">
+                <a href="#" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Carrinho</span>
+                    <span class="cart-item-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+ <!--------------------FIM DO HEADER------------------>
+ <!--------------------CARDÁPIO------------------>   
+<header class="menu-page-header">
+    <h1>Nosso Cardápio</h1>
+    <p>Descubra nossos autênticos Crêpes Brasileiros</p>
+</header>
+
+
+<main class="container">
+    <nav class="filters">
+        <button class="filter-btn" data-filter="tradicional">Crêpes Tradicionais</button>
+        <button class="filter-btn" data-filter="palito">Crêpes no Palito</button>
+    </nav>
+<!--GRID DE ITENS DO CARDÁPIO CREPE TRADICIONAL-->
+<section class="menu-grid">
+    <article class="menu-item" data-category="tradicional">
+        <div class="item-image-container">
+            <img src="imagem/crepedenutellaemorango.png" alt="Crêpe de Nutella com Morango">
+            <span class="badge badge-doce">Doce</span>
+            <span class="badge rating">⭐ 5.0</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+            <h3>Crêpe Nutella & Morango</h3>
+            <p class="price">R$ 25,00</p>
+        </div>
+        <p class="description">Clássico francês com Nutella cremosa e morangos frescos.</p>
+        <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+
+    <article class="menu-item" data-category="tradicional">
+        <div class="item-image-container">
+            <img src="imagem/crepedebananaechocolate.png" alt="Crêpe de Chocolate e Banana">
+            <span class="badge badge-doce">Doce</span>
+            <span class="badge rating">⭐ 4.8</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+            <h3>Crêpe Chocolate & Banana</h3>
+            <p class="price">R$ 23,80</p>
+        </div>
+            <p class="description">Chocolate belga e bananas fatiadas com carinho.</p>
+            <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+        
+    <article class="menu-item" data-category="tradicional">
+        <div class="item-image-container">
+            <img src="imagem/crepedemaçaecanela.png" alt="Crêpe de Maçã e Canela">
+            <span class="badge badge-doce">Doce</span>
+            <span class="badge rating">⭐ 4.2</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+                <h3>Crêpe Maçã & Canela</h3>
+                <p class="price">R$ 21,00</p>
+            </div>
+                <p class="description">Maçãs caramelizadas com canela e açúcar mascavo.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+
+    <article class="menu-item" data-category="tradicional">
+            <div class="item-image-container">
+                <img src="imagem/crepedecarne.jpeg" alt="Crêpe de Carne">
+                <span class="badge badge-salgado">Salgado</span>
+                <span class="badge rating">⭐ 5.0</span>
+            </div>
+            <div class="item-content">
+                <div class="item-header">
+                         <h3>Crêpe de Carne</h3>
+                        <p class="price">R$ 26,00</p>
+                </div>
+                <p class="description">Carne bovina desfiada temperada com ervas finas.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+
+    <article class="menu-item" data-category="tradicional">
+        <div class="item-image-container">
+                <img src="imagem/crepedecalabresa.jpeg" alt="Crêpe de Calabresa">
+                <span class="badge badge-salgado">Salgado</span>
+                <span class="badge rating">⭐ 4.5</span>
+        </div>
+        <div class="item-content">
+                <div class="item-header">
+                <h3>Crêpe de Calabresa</h3>
+                <p class="price">R$ 20,80</p>
+        </div>
+                <p class="description">Calabresa artesanal com cebola roxa.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+
+    <article class="menu-item" data-category="tradicional">
+        <div class="item-image-container">
+            <img src="imagem/crepedefrango.png" alt="Crêpe de Frango">
+            <span class="badge badge-salgado">Salgado</span>
+            <span class="badge rating">⭐ 4.9</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+            <h3>Crêpe de Frango</h3>
+            <p class="price">R$ 22,00</p>
+        </div>
+            <p class="description">Frango desfiado com maionese da casa e especiarias.</p>
+            <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+
+<!--CREPES NO PALITO-->
+<article class="menu-item" data-category="palito">
+        <div class="item-image-container">
+            <img src="imagem/crepepalitomorangoenutella.png" alt="Crêpe no Palito de Morango com Nutella">
+            <span class="badge badge-doce">Doce</span>
+            <span class="badge rating">⭐ 5.0</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+            <h3>Crêpe no Palito de Morango com Nutella</h3>
+            <p class="price">R$ 18,00</p>
+        </div>
+            <p class="description">Delicioso morango fresco com Nutella.</p>
+            <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+
+    <article class="menu-item" data-category="palito">
+        <div class="item-image-container">
+            <img src="imagem/crepepalitomaçaecanela.png" alt="Crêpe no Palito de Maçã com Canela">
+            <span class="badge badge-doce">Doce</span>
+            <span class="badge rating">⭐ 4.5</span>
+        </div>
+        <div class="item-content">
+            <div class="item-header">
+            <h3>Crêpe no Palito de Maçã com Canela</h3>
+            <p class="price">R$ 12,00</p>
+        </div>
+            <p class="description">Deliciosa maçã com canela e açúcar.</p>
+            <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+        </div>
+    </article>
+    <article class="menu-item" data-category="palito">
+            <div class="item-image-container">
+                <img src="imagem/crepepalitobananachocolate.png" alt="Crêpe no Palito de Banana com Chocolate">
+                <span class="badge badge-doce">Doce</span>
+                <span class="badge rating">⭐ 4.3</span>
+            </div>
+            <div class="item-content">
+                <div class="item-header">
+                    <h3>Crêpe no Palito de Banana com Chocolate</h3>
+                    <p class="price">R$ 15,00</p>
+                </div>
+                <p class="description">Deliciosa banana com chocolate ao leite.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+
+    <article class="menu-item" data-category="palito">
+            <div class="item-image-container">
+                <img src="imagem/crepepalitocarne.png" alt="Crêpe no Palito de Carne">
+                <span class="badge badge-salgado">Salgado</span>
+                <span class="badge rating">⭐ 5.0</span>
+            </div>
+            <div class="item-content">
+                <div class="item-header">
+                    <h3>Crêpe no Palito de Carne</h3>
+                    <p class="price">R$ 20,00</p>
+                </div>
+                <p class="description">Carne bovina desfiada temperada com ervas finas.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+
+    <article class="menu-item" data-category="palito">
+            <div class="item-image-container">
+                <img src="imagem/crepenopalitofrango.png" alt="Crêpe no Palito de Frango">
+                <span class="badge badge-salgado">Salgado</span>
+                <span class="badge rating">⭐ 4.5</span>
+            </div>
+            <div class="item-content">
+                <div class="item-header">
+                    <h3>Crêpe no Palito de Frango</h3>
+                    <p class="price">R$ 15,00</p>
+                </div>
+                <p class="description">Frango desfiado com maionese da casa e especiarias..</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+
+    <article class="menu-item" data-category="palito">
+            <div class="item-image-container">
+                <img src="imagem/crepepalitocalabresa.png" alt="Crêpe no Palito de Calabresa">
+                <span class="badge badge-salgado">Salgado</span>
+                <span class="badge rating">⭐ 4.8</span>
+            </div>
+            <div class="item-content">
+                <div class="item-header">
+                    <h3>Crêpe no Palito de Calabresa</h3>
+                    <p class="price">R$ 16,00</p>
+                </div>
+                <p class="description">Calabresa artesanal com cebola roxa.</p>
+                <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+            </div>
+    </article>
+</section> 
+</main> 
+
+<!--CARRINHO LATERAL FLUTUANTE-->
+<div class="cart-overlay"></div>
+    <aside class="floating-cart">
+    <header class="cart-header-side">
+        <h3>Meu Carrinho</h3>
+        <button class="close-cart-btn">&times;</button>
+    </header>
+
+    <div class="cart-body">
+        <div id="cart-items-container">
+        </div>
+    </div>
+
+<footer class="cart-footer">
+<div class="cart-summary">
+    <div class="summary-row">
+        <span>Subtotal</span>
+        <span id="subtotal-price">R$ 0,00</span>
+     </div>
+    <div class="summary-row">
+        <span>Taxa de Entrega</span>
+        <span id="delivery-fee">R$ 0,00</span>
+    </div>
+    <div class="summary-row total">
+        <span>Total</span>
+        <span id="total-price">R$ 0,00</span>
+    </div>
+</div>
+
+<div class="cart-form">
+    <div class="form-group cep-group">
+        <input type="text" id="cep" placeholder="Seu CEP para entrega">
+        <button type="button" id="calculate-cep-btn">Calcular</button>
+    </div>
+        <input type="text" id="name" placeholder="Seu Nome" class="form-control" required>
+        <input type="tel" id="phone" placeholder="Seu WhatsApp" class="form-control" required>
+        <input type="text" id="address" placeholder="Endereço de Entrega" class="form-control" required>
+    </div>
+
+    <button id="whatsapp-btn" class="whatsapp-btn-finalize">
+        <i class="fab fa-whatsapp"></i>Finalizar Pedido via WhatsApp.
+    </button>
+
+</footer>
+</aside>
+<!--SEÇÃO DE CONTATO NO CARDÁPIO-->
+<section class="cta-section menu-cta">
+        <h2>Não encontrou o que procurava?</h2>
+        <p>Entre em contato conosco! Criamos sabores personalizados e temos opções especiais que podem não estar no cardápio.</p>
+       <a href="whatsapp.html" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i> Fale Conosco no WhatsApp
+</a>
+</a>
+</section>
+
+
+<!--FOOTER-->
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagem/oficiallogo.png" alt="Logo Crepe Gru" class="logo-img">
+                    <span class="logo-text">Crepe Gru</span>
+                </a>
+            </div>
+            <p>Autênticos sabores Brasileiros entregues com carinho na sua porta.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Contato</h3>
+            <ul class="contact-list">
+                <li><i class="fas fa-map-marker-alt"></i><div>Guarulhos - SP<br>Entrega em toda a região</div></li>
+                <li><i class="fas fa-phone-alt"></i><div>(11) 9919306469<br>WhatsApp</div></li>
+                <li><i class="fas fa-envelope"></i><div>contato@crepegru.com</div></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Horários de Entrega</h3>
+            <ul class="schedule-list">
+                <li><span>Seg - Qui:</span> <span>11h - 22h</span></li>
+                <li><span>Sex - Sáb:</span> <span>11h - 23h</span></li>
+                <li><span>Domingo:</span> <span>12h - 20h</span></li>
+            </ul>
+            <p class="delivery-time"><i class="fas fa-shipping-fast"></i> Entrega em até 30 minutos!</p>
+        </div>
+    </div> <div class="footer-bottom">
+        <p>&copy; 2025 Crepe Gru. Feito com amor <i class="fas fa-heart"></i> em Guarulhos, SP.</p>
+    </div>
+</footer>
+
+<!--SCRIPT DO SITE-->
+<script src="assets/app.js"></script>
+
+</body>
+</html>
